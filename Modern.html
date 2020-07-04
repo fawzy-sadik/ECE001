@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta charset="utf-8">
+    <title>Fawzy Sadek Mahmoud</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        *{box-sizing: border-box;}
+        body{margin: 0; background-color: #383e56; color: white;}
+        .one{ padding: 10px; display: flex; justify-content: center; }
+        .one h2{padding: 30px; background-color: #f69e7b; color: white; text-align: center; border-radius: 50%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; display: flex; align-items: center ; justify-content: center;}
+        .two { text-align: center;}
+        .two h2{font-size: 40px; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; color: white ;} 
+        .two ul{list-style: none; display: flex; justify-content: center;}    
+        .two ul li {margin: 10px; padding: 20px; background-color: #f69e7b; border-top-right-radius: 50%; border-top-left-radius: 50%; }  
+        .two ul li a {text-decoration: none; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
+        .three{padding: 20px 0; display: flex; justify-content: center; flex-wrap: wrap; }
+        .three img {width: 400px; height: 200px; border-radius: 20px;}
+        .three p{font-weight: bold; font-size: 25px; line-height: 30px; width: 80%;}
+        .table{display: flex; justify-content: center; flex-wrap: wrap; }
+        .table table{border: 5px solid #eeeeee ; margin: 10px; padding: 10px;}
+        .table table tr th{font-weight: bold; font-size: 30px; color:  #eeeeee; border: 1px solid white; padding: 10px;}
+        .table table tr{margin: 20px;}
+        .table table tr td {font-size: 25px; font-weight: bold; padding-top: 10px;  border: 1px solid white; padding: 10px; }
+    </style>
+</head>
+    <body>
+        <div class="one"> 
+            <h2>Cryptography</h1>
+        </div>
+        <div class="two">
+
+           <ul>
+               <li><a href="index.html">What is Cryptography</a></li>
+               <li><a href="Modern.html">Modern cryptography concerns </a></li>
+               <li><a href="type.html">Types</a></li>
+               <li><a href="internet.html">In the age of the internet</a></li>
+               <li><a href="sources.html">Sources</a></li>
+               
+           </ul>
+
+            
+            <h2>Modern cryptography concerns with:</h2>
+            
+        </div>
+        <div class="three">
+            
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Confidentiality </th>
+                        <th>Integrity </th>
+                        <th>Non-repudiation  </th>
+                        <th>Authentication   </th>
+                    </tr>
+                    <tr>
+                     <td>At the point when information is classified, we don't need it to be publically open without confirmation that the beneficiary is approved to get to it. The initial step is to mask the information in a garbled configuration that lone the verified can peruse. This can be accomplished with encryption. 
+
+                        Encryption is conceivable by utilizing of a lot of directions (a calculation) that can be applied to information to encode and unscramble (when you run the standards in invert) it. A key is required to make the result of the encryption novel, and this key should just be known by the individuals who are permitted to 'lock' and 'open' the information.</td>
+                        <td>Integrity implies that the information was not modified during travel by either malevolence or general obstruction, so to guarantee the information is as it seemed to be, we have to have an advanced mark applied to the information which can be checked by the recipient to guarantee the individual who sent it is who they state they are. 
+
+                            This is accomplished by running a hash calculation (one route encryption) on the payload (information) and scrambling it with a key that solitary the beneficiary and sender knows. The collector at that point confirms the information by unscrambling the mark, and running a similar hash calculation against the information – this outcome is contrasted with the decoded signature and on the off chance that it matches, at that point the information is necessary.</td>
+                        <td>Like confirmation, however this is the approval of all information in travel that is traded between the two friends. This can be accomplished with hilter kilter cryptosystems that utilization a public+private key pair, which we'll clarify in somewhat more detail later on. Moreover, by numbering every parcel in a numerical request, the beneficiary can be certain that all information isn't copied or re-sent by noxious clients.</td>
+                        <td>When establishing a connection, there needs to be clarification that both clients connecting to one another are who they say they are, and not some malicious man in the middle! Typically, both machines will have information about their peer before connecting (such as a certificate) which will be used to validate the connection.
+
+                        </td>
+                    </tr>
+                </table>
+                
+             
+                </div>
+        </div>
+        
+      
+    </body>
+
+
+</html>
